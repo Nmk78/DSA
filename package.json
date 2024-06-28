@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/script.ts",
+    "bnSearch": "ts-node-dev --respawn --transpile-only src/DSA/searchingAlgos/BinarySearch.ts",
     "lnSearch": "ts-node-dev --respawn --transpile-only src/DSA/searchingAlgos/LinearSearch.ts",
     "bbsort": "ts-node-dev --respawn --transpile-only src/DSA/sortingAlgos/BubbleSort.ts",
     "mgsort": "ts-node-dev --respawn --transpile-only src/DSA/sortingAlgos/MergeSort.ts",

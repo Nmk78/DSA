@@ -3,6 +3,7 @@ import { index1000Array, randomArray } from "../constant";
 console.log("\x1b[31m%s\x1b[0m", "_________________________________________");
 
 console.log("\x1b[32m%s\x1b[0m", "Mege Sort");
+
 export const mergeSort = (arr: number[]) => {
 
   if (!(arr?.length > 1)) {
